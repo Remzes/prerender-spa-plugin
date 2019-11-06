@@ -7,6 +7,7 @@ function PrerenderSPAPlugin (...args) {
   const rendererOptions = {} // Primarily for backwards-compatibility.
 
   this._options = {}
+  console.log("OPTIONS ARE", this._options);
 
   // Normal args object.
   if (args.length === 1) {
